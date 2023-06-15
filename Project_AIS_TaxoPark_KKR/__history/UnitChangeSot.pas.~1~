@@ -1,0 +1,62 @@
+unit UnitChangeSot;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids,
+  UniProvider, MySQLUniProvider, DBAccess, Uni, MemDS, Vcl.ExtCtrls,
+  Vcl.Imaging.pngimage, Vcl.Buttons, Vcl.DBCtrls, Vcl.StdCtrls, Vcl.Mask,
+  Data.Win.ADODB;
+
+type
+  TFormChangeS = class(TForm)
+    PanelChange: TPanel;
+    LabelTelephone: TLabel;
+    LabelPasport: TLabel;
+    LabelMail: TLabel;
+    LabelINN: TLabel;
+    LabelAdress: TLabel;
+    LabelNumber: TLabel;
+    LabelTerm: TLabel;
+    LabelExperience: TLabel;
+    LabelLogin: TLabel;
+    LabelPassword: TLabel;
+    LabelID: TLabel;
+    DBEditAdress: TDBEdit;
+    DBEditINN: TDBEdit;
+    DBEditExperience: TDBEdit;
+    DBEditTerm: TDBEdit;
+    DBEditNumber: TDBEdit;
+    DBEditPasport: TDBEdit;
+    DBEditMail: TDBEdit;
+    DBEditTelephone: TDBEdit;
+    DBEditFIO: TDBEdit;
+    PanelChange_KKR: TPanel;
+    DBImagePhoto: TDBImage;
+    DBEditPassword: TDBEdit;
+    DBEditLogin: TDBEdit;
+    DBEditID: TDBEdit;
+    MySQLUniProvider: TMySQLUniProvider;
+    procedure PanelChange_KKRClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormChangeS: TFormChangeS;
+
+implementation
+
+{$R *.dfm}
+uses UnitUser;
+procedure TFormChangeS.PanelChange_KKRClick(Sender: TObject);
+begin
+  if FormUser.UniQuerySot.Modified then FormUser.UniQuerySot.Post;
+  ShowMessage('Информация изменена!');
+     FormChangeS.Close;
+end;
+
+end.

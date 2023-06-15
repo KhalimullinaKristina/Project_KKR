@@ -1,0 +1,18 @@
+program Project_AIS_TaxoPark_KKR;
+
+uses
+  Vcl.Forms,
+  UnitEnter in 'UnitEnter.pas' {Form1},
+  UnitUser in 'UnitUser.pas' {FormUser},
+  UnitChangeSot in 'UnitChangeSot.pas' {FormChangeS};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFormUser, FormUser);
+  Application.CreateForm(TFormChangeS, FormChangeS);
+  Application.Run;
+end.

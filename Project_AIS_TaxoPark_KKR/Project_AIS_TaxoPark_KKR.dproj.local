@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.223,=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.045,=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.949,=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.516,=C:\Users\Кристина\Desktop\Project\Project_TaxoPark_KKR\UnitHistory.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.930,=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.804,=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.848,=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.706,C:\Pr\Project_AIS_TaxoPark_KKR.dproj=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.237,C:\Pr\UnitUser.pas=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.590,=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.641,C:\Pr\UnitEnter.pas=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.641,C:\Pr\UnitEnter.dfm=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.127,C:\Pr\UnitChangeSot.pas=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.127,C:\Pr\UnitChangeSot.dfm=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.793,=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.219,=C:\Users\Кристина\Desktop\Project\Project_TaxoPark_KKR\UnitAdm.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.237,C:\Pr\UnitUser.dfm=C:\Users\Кристина\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.510,=C:\Users\Кристина\Desktop\Project\Project_TaxoPark_KKR\UnitChangeAvto.pas</Transaction>
+    <Transaction>2023.06.15 12:05:48.931,C:\Users\Кристина\Desktop\Project\Project_TaxoPark_KKR\UnitAdm.pas=</Transaction>
+    <Transaction>2023.06.15 12:05:48.990,C:\Users\Кристина\Desktop\Project\Project_TaxoPark_KKR\UnitChangeAvto.pas=</Transaction>
+    <Transaction>2023.06.15 12:05:49.016,C:\Users\Кристина\Desktop\Project\Project_TaxoPark_KKR\UnitHistory.pas=</Transaction>
+    <Transaction>2023.06.15 12:06:01.640,=C:\Pr\UnitHistory.pas</Transaction>
+    <Transaction>2023.06.15 12:06:11.281,=C:\Pr\UnitAdm.pas</Transaction>
+    <Transaction>2023.06.15 12:06:11.423,=C:\Pr\UnitChangeAvto.pas</Transaction>
+  </Transactions>
+</BorlandProject>
